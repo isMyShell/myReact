@@ -1,0 +1,21 @@
+@charset "UTF-8";
+#index{
+	height: 100%;
+	weight:100%;
+	@include flexbox();
+	@include flex-direction(column);
+	header{
+		height: .44rem;
+		width: 100%;
+		background: yellow;
+	}
+	section{
+		@include flex();
+		width: 100%;
+	}
+	footer{
+		height: .44rem;
+		width: 100%;
+		background: yellow;
+	}
+}
