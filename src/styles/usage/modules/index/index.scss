@@ -7,11 +7,12 @@
 	header{
 		height: .44rem;
 		width: 100%;
-		background: yellow;
+		background: blue;
 	}
 	section{
 		@include flex();
 		width: 100%;
+		background: #ddf;
 	}
 	footer{
 		height: .44rem;
