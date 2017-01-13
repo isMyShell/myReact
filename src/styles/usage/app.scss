@@ -1,8 +1,12 @@
 @charset "UTF-8";
 //初始化样式
 @import "./core/reset";
+//引入公有样式
+@import "./modules/common";
 //index
-@import "./modules/index/index";
+@import "./modules/index";
+//home
+@import "./modules/home/home";
 
 
 html{
