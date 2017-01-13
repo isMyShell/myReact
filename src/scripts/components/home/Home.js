@@ -1,20 +1,19 @@
 //引进React 和 React-dom
 import React from "react";
+//引入插件
 import Header from "./Header"
 import Section from "./Section"
-import Footer from "./Footer"
 
 
-var Index = React.createClass({
+var Home = React.createClass({
 	render:function(){
 		return (
-			<div id="index">
+			<div id="home">
 				<Header/>
 				<Section/>
-				<Footer/>
 			</div>
 		)
 	}
 });
 
-export default Index
+export default Home

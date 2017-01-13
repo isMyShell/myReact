@@ -1,10 +1,14 @@
 //引进React 和 React-dom
 import React from "react";
 
+import Search from "./Search.js";
+
 var Section = React.createClass({
 	render:function(){
 		return (
-			<section>this is Section !</section>
+			<section>
+				<Search/>
+			</section>
 		)
 	}
 });

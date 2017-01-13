@@ -10,17 +10,23 @@ import layout from "./scripts/layout/layout.string"
 //引进React 和 React-dom
 import React from "react";
 import ReactDOM from "react-dom";
+import {Router, Route,hashHistory} from "react-router";
 
-common.renderBody(layout);
 //引进公共JS
 import common from "./scripts/utils/util.common.js";
-//引入组件
-import Index from "./scripts/components/index/index.js";
+
 //代码部分
+common.renderBody(layout);
 
+//路由
+import routes from "./routes.js"
+import Index from "./scripts/components/Index"
 
-
+// ReactDOM.render(
+// 	<Index/>,
+// 	document.getElementById("app")
+// )
 ReactDOM.render(
-	<Index/>,
+	<Router routes={routes} history={hashHistory}></Router>,
 	document.getElementById("app")
 )
