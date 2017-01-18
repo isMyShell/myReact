@@ -8,8 +8,8 @@ import "./styles/usage/app.scss";
 //引入layout
 import layout from "./scripts/layout/layout.string"
 //引进React 和 React-dom
-import React from "react";
-import ReactDOM from "react-dom";
+//import React from "react";
+//import ReactDOM from "react-dom";
 import {Router, Route,hashHistory} from "react-router";
 
 //引进公共JS

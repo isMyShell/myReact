@@ -1,12 +1,12 @@
 @charset "UTF-8";
-
 #container{
-	height: 100%;
-	width: 100%;
 	@include flexbox();
 	@include flex-direction(column);
+	height: 100%;
+	width: 100%;
 	#box{
 		@include flex();
+		@include flexbox();
 		width: 100%;
 	}
 	&>div:nth-child(2){
@@ -17,6 +17,7 @@
 		background: yellow;
 		&>div{
 			@include flex();
+			height:100%;
 			a{
 				@include flexbox();
 				@include flex-direction(column);

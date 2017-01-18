@@ -1,5 +1,5 @@
 //引进React 和 React-dom
-import React from "react";
+//import React from "react";
 
 import Search from "./Search.js";
 

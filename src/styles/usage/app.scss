@@ -4,10 +4,11 @@
 //引入公有样式
 @import "./modules/common";
 //index
-@import "./modules/index";
+@import "./modules/Index";
 //home
 @import "./modules/home/home";
-
+//way
+@import "./modules/way/way";
 
 html{
 	height: 100%;
@@ -20,5 +21,4 @@ html{
 			height: 100%;
 		}
 	}
-
 }

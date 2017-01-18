@@ -2,12 +2,19 @@
 
 $basecolor: #3bb55b;
 
-@font-face {font-family: "youfont";
+@font-face {font-family: "yofont";
   src: url('/images/fonts/index.eot?t=1484301765'); /* IE9*/
   src: url('/images/fonts/index.eot?t=1484301765#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url('/images/fonts/index.woff?t=1484301765') format('woff'), /* chrome, firefox */
   url('/images/fonts/index.ttf?t=1484301765') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
   url('/images/fonts/index.svg?t=1484301765#iconfont') format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: "yofont";
+  src: url('/images/fonts/fonts_g/iconfont.eot'); /* IE9*/
+  src: url('/images/fonts/fonts_g/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/images/fonts/fonts_g/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('/images/fonts/fonts_g/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('/images/fonts/fonts_g/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .icon-xiangxiajiantouarrowdown:before { content: "\e604"; }//向下箭头 &#xe604;

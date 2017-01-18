@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import  "../common.scss";
+#way{
+  @include flex();
+  @include flexbox();
+  @include flex-direction(column);
+  width:100%;
+  #way_head{
+    @include flexbox();
+    @include justify-content(space-between);
+    @include align-items(center);
+    width:100%;
+    height:0.9rem;
+    background: #3bb55b;
+    padding-left:0.27rem;
+    padding-right:0.27rem;
+    a{
+      color:white;
+      font-size:0.3rem;
+    }
+    a.more{
+      font-size:0.5rem;
+    }
+    span{
+      color:white;
+      font-size:0.3rem;
+    }
+  }
+  #way_con{
+    @include flex();
+    overflow-y:scroll;
+    width:100%;
+    background:white;
+    padding-left:0.27rem;
+    padding-right:0.27rem;
+    ul{
+      li{
+        width:100%;
+        height:0.7rem;
+        border:2px solid black;
+      }
+    }
+  }
+}
